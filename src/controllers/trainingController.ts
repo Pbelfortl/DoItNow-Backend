@@ -32,6 +32,7 @@ export async function getMyTraining(req: AuthenticatedRequest, res: Response) {
         res.status(200).send(training)
 
     } catch (error) {
+        console.log(error)
         res.sendStatus(500)
     }
 }
