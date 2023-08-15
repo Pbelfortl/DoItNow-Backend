@@ -61,6 +61,7 @@ model musculatura {
 
 model treino {
   id        Int     @id(map: "treino_pk") @default(autoincrement())
+  name      String?
   userId    Int
   divisaoId Int
   grupo     grupo[]

@@ -49,6 +49,7 @@ CREATE TABLE "musculatura" (
 -- CreateTable
 CREATE TABLE "treino" (
     "id" SERIAL NOT NULL,
+    "name" TEXT,
     "userId" INTEGER NOT NULL,
     "divisaoId" INTEGER NOT NULL,
 
