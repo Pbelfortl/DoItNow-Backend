@@ -3,6 +3,8 @@
         "outDir": "dist",
         "esModuleInterop": true,
         "module": "Node16",
+        "baseUrl": "src",
+        "moduleResolution": "Node"
     },
     "ts-node": {
         "esm": true
